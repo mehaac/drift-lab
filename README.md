@@ -1,11 +1,11 @@
 # drift-lab
 
-A personal playground for exploring **Nuxt 4** and **Storybook 9** integration patterns. No production intent — just experimentation.
+A personal playground for exploring **Nuxt 4** and **Storybook 10** integration patterns. No production intent — just experimentation.
 
 ## Stack
 
 - [Nuxt 4](https://nuxt.com) + Vue 3
-- [Storybook 9](https://storybook.js.org) with `@nuxtjs/storybook`
+- [Storybook 10](https://storybook.js.org) with `@storybook-vue/nuxt`
 - [Vitest 4](https://vitest.dev) + `@storybook/addon-vitest`
 - Playwright (browser-mode component tests)
 
