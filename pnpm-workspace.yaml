@@ -1,0 +1,10 @@
+overrides:
+  storybook: ^10.2.7
+
+catalogs:
+  storybook:
+    '@storybook-vue/nuxt': '9.0.1'
+    '@storybook/addon-a11y': '^10.2.7'
+    '@storybook/addon-docs': '^10.2.7'
+    '@storybook/addon-vitest': '^10.2.7'
+    'storybook': '^10.2.7'

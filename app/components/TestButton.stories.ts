@@ -1,6 +1,6 @@
 import { within, expect, fn } from 'storybook/test'
-import type { Meta, StoryObj } from '@nuxtjs/storybook'
-import TestButton from '../app/components/TestButton.vue'
+import type { Meta, StoryObj } from '@storybook-vue/nuxt'
+import TestButton from './TestButton.vue'
 
 const meta = {
   title: 'Example/TestButton',

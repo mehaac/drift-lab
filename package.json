@@ -7,8 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "storybook": "STORYBOOK=true storybook dev -p 6006",
+    "build-storybook": "STORYBOOK=true storybook build",
     "test-storybook": "vitest --project=storybook"
   },
   "dependencies": {
@@ -17,14 +17,13 @@
     "vue-router": "5.0.2"
   },
   "devDependencies": {
-    "@nuxtjs/storybook": "^9.0.1",
-    "@storybook-vue/nuxt": "^9.0.1",
-    "@storybook/addon-a11y": "^9.1.20",
-    "@storybook/addon-docs": "^9.1.20",
-    "@storybook/addon-vitest": "^9.1.20",
+    "@storybook-vue/nuxt": "catalog:storybook",
+    "@storybook/addon-a11y": "catalog:storybook",
+    "@storybook/addon-docs": "catalog:storybook",
+    "@storybook/addon-vitest": "catalog:storybook",
     "@vitejs/plugin-vue": "^6.0.5",
     "@vitest/browser-playwright": "^4.1.0",
-    "storybook": "^9.1.20",
+    "storybook": "catalog:storybook",
     "vitest": "^4.1.0",
     "vitest-browser-vue": "^2.1.0"
   }
